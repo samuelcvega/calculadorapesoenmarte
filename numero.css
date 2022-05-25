@@ -1,0 +1,112 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.texto2{
+    font-size: 70%;
+}
+.caja_grande{
+    background-image: url("imagenes/planetas.jpeg");
+    
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;   
+    margin-top:  0px;
+
+}
+.caja_grande p{
+    font-size: 350% ;
+    color: cornsilk;
+    font-family: Arial;
+    font-weight: 600;
+
+
+}
+.caja_resultado{
+    display: flex;
+    font-size: 30px;
+    color: cornsilk;
+    font-family: Arial;
+    font-weight: 600;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.caja_resultado p{
+    padding:0;
+    margin:0;
+    font-size: 90%;
+    font-family: Arial;
+    font-weight: 60;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#resultado{
+    margin-left: 35px;
+
+
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+.texto input{
+    display:flex;
+    padding:0;
+    margin:0;
+    font-size: 30px;
+    color:black;
+    border-radius: 20px;
+    width: 35%;
+    height: 55px;
+    border: solid 2px cornsilk;
+    background-color: cornsilk;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.texto input::placeholder{
+    font-size: 40%;
+    margin:10% 0;
+}
+.boton{
+    background-color:black;
+    display: flex;
+    width: 150%;
+    height: 120%;
+    padding:0;
+    margin: 0;
+    font-size: 27px;
+    align-items: center;
+    justify-content: center;
+    color:cornsilk;
+    border-radius:20px;
+    border: solid 2px cornsilk;
+    margin-bottom: 3%;
+    margin-top: 3%;
+
+}
+.kilos{
+    display:flex;
+    padding:0;
+    margin-left: 3%;
+    font-size: 55px;
+    color:rgb(184, 0, 0);
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.caja_grande h1{
+    font-size: 50px;
+    color:cornsilk
+
+}
